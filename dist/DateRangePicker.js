@@ -6,7 +6,7 @@ Object.defineProperty(exports, '__esModule', {
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-var _reactAddons = require('react/addons');
+var _reactAddons = require('react');
 
 var _reactAddons2 = _interopRequireDefault(_reactAddons);
 
@@ -55,8 +55,6 @@ var _utilsIsMomentRange2 = _interopRequireDefault(_utilsIsMomentRange);
 var PureRenderMixin = _reactAddons2['default'].addons.PureRenderMixin;
 var absoluteMinimum = (0, _moment2['default'])(new Date(-8640000000000000 / 2)).startOf('day');
 var absoluteMaximum = (0, _moment2['default'])(new Date(8640000000000000 / 2)).startOf('day');
-
-_reactAddons2['default'].initializeTouchEvents(true);
 
 function noop() {}
 
